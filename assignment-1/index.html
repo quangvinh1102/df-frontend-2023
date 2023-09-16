@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Bookstore</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    Hello world
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Bookstore</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quản lý sách</h1>
+    <form action="">
+      <input type="search" placeholder="Tìm kiếm theo tiêu đề" id="search-input">
+    </form>
+    <table >
+      <thead>
+        <tr>
+          <th>Tiêu đề</th>
+          <th>Tác giả</th>
+          <th>Chủ đề</th>
+          <th>Thao tác</th>
+        </tr>
+      </thead>
+      <tbody id="list-books">
+        
+      </tbody>
+    </table>
+    <div  class="form-add-book">
+      <h2>Thêm sách mới</h2>
+      <input type="text" placeholder="Tiêu đề" id="title">
+      <br>
+      <input type="text" placeholder="Tác giả" id="author">
+      <br>
+      <input type="text" placeholder="Chủ đề" id="subject">
+      <br>
+      <button onclick="addBook()">Thêm</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
