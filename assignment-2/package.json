@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "In the previous assignment, we built a simple CMS table using just HTML, CSS, and JavaScript. For this assignment, you're tasked with recreating the same interface using React. This will allow us to appreciate how React enhances our approach to web app development.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
